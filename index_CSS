@@ -1,7 +1,18 @@
 #EdocLogo1 {
   mix-blend-mode: multiply;
-  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: -300px;
 }
 body {
   background-color: rgb(174, 214, 241)
+}
+p{
+  text-align: left;
+  font-size: 20px;
+}
+#CreepyCartoon {
+  mix-blend-mode: multiply;
 }
