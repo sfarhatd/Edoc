@@ -6,7 +6,18 @@
   width: 50%;
   margin-bottom: -300px;
 }
+.buttons {
+  text-align: center;
+}
 #about {
+  background-color: lightblue;
+  font-family: 'Patrick Hand';
+  font-size: 20px;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-left: -40px;
+}
+#yourideas {
   background-color: lightblue;
   font-family: 'Patrick Hand';
   font-size: 20px;
@@ -20,6 +31,7 @@ p{
   text-align: justify;
   font-size: 40px;
   margin-left: 50px;
+  margin-top: 50px;
 }
 #CreepyCartoon {
   mix-blend-mode: multiply;
