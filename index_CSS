@@ -8,6 +8,7 @@
 }
 .buttons {
   text-align: center;
+  display: block;
 }
 #about {
   background-color: lightblue;
@@ -15,7 +16,7 @@
   font-size: 20px;
   border-radius: 10px;
   margin-right: 50px;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 #yourideas {
   background-color: lightblue;
