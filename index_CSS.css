@@ -11,7 +11,9 @@
   display: block;
 }
 #about {
-  background-color: lightblue;
+  background-color: darkblue;
+  color: lightblue;
+  padding: 3px;
   font-family: 'Patrick Hand';
   font-size: 20px;
   border-radius: 10px;
