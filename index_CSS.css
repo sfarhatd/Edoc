@@ -39,7 +39,12 @@ p{
   mix-blend-mode: multiply;
 }
 #heart {
-animation: pulse 1s ease infinite;
+  opacity: 0.2;
+}
+
+#heart:hover {
+  opacity: 1;
+  animation: pulse 1s ease infinite;
 }
 
 @keyframes pulse {
@@ -49,7 +54,12 @@ animation: pulse 1s ease infinite;
 }
 
 #lungs {
-animation: pulse 5s ease infinite;
+    opacity: 0.2;
+}
+
+#lungs:hover {
+    opacity: 1;
+    animation: pulse 5s ease infinite;
 }
 
 @keyframes pulse {
