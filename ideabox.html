@@ -16,7 +16,7 @@
       <p>Send us your ideas for future eDoc topics by clicking the "Ideas!"
         slot of the Idea Box!</p>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6" id="googleformdiv">
       <iframe id="googleform" src="https://docs.google.com/forms/d/e/1FAIpQLSelZL6FGkHLoR_AP2miAIRZnZ1Fohdm-HAZKV5LWYBeBHw4OQ/viewform?embedded=true" width="590" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
     <div class="col-sm-6">
@@ -24,5 +24,17 @@
       style="position: absolute; width="400px"; height="350px"">
       <button id="ideasbutton" style="position: absolute; top: 3000%; left: 29%;" onclick="myFunction()">Ideas!</button>
     </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/indexjava.js"></script>
+    <script>
+function myFunction() {
+    var x = document.getElementById("googleform");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
   </body>
 </html>

@@ -19,6 +19,7 @@ p{
 #googleform {
   opacity: 1;
   width: 100%;
+  display: none;
 }
 #ideasbutton {
   color: white;
