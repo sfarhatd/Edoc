@@ -1,0 +1,22 @@
+#EdocLogo1 {
+  mix-blend-mode: multiply;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body {
+  background-color: rgb(174, 214, 241);
+  font-family: 'Patrick Hand';
+}
+p{
+  text-align: justify;
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#googleform {
+  opacity: 1;
+  width: 100%;
+}
