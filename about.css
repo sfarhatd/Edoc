@@ -29,7 +29,9 @@ p {
 }
 #sarablurb {
   text-align: right;
+  visibility: hidden;
 }
 #roshniblurb {
   text-align: left;
+  visibility: hidden;
 }
