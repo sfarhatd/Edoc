@@ -21,9 +21,9 @@ p {
 }
 #Sara {
   border-radius: 50%;
-  margin-left: 50px;
+  float: right;
 }
 #Roshni {
   border-radius: 50%;
-  margin-left: 50px;
+  float: left;
 }
