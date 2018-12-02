@@ -34,10 +34,10 @@
         </p>
       </div>
       <div class="col-sm-3">
-        <img id="Sara" src="Sara.jpeg" width="220px"; height="240px" alt="Sara" class="center">
+        <img id="Sara" src="Sara.jpeg" width="220px"; height="240px" alt="Sara" class="hover">
       </div>
       <div class="col-sm-3">
-        <img id="Roshni" src="roshni_photo.jpg" width="220px"; height="240px" alt="Roshni" class="center">
+        <img id="Roshni" src="roshni_photo.jpg" width="220px"; height="240px" alt="Roshni" class="hover1">
       </div>
       <div class="col-sm-3">
         <p id="roshniblurb">Roshni is also a Foundation Year 1 doctor working at
@@ -48,5 +48,21 @@
         </p>
       </div>
     </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/indexjava.js"></script>
+    <script type="text/javascript">
+        $('.hover').mouseover(function() {
+          $('#sarablurb').css("visibility","visible");
+        });
+        $('.hover').mouseout(function() {
+          $('#sarablurb').css("visibility","hidden");
+        });
+        $('.hover1').mouseover(function() {
+          $('#roshniblurb').css("visibility","visible");
+        });
+        $('.hover1').mouseout(function() {
+          $('#roshniblurb').css("visibility","hidden");
+        });
+    </script>
   </body>
 </html>
