@@ -32,7 +32,10 @@ body {
     text-align: center;
     font-size: 30px;
   }
-  
+
 #toolsimage {
 float: right;
+}
+#sickface {
+  float: right;
 }
