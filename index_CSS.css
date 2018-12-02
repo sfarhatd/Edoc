@@ -6,6 +6,15 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: strong;
+  color: darkblue;
+  font-size: 30px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
 .buttons {
   text-align: center;
   display: block;
