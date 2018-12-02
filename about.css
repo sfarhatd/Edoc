@@ -27,3 +27,9 @@ p {
   border-radius: 50%;
   float: left;
 }
+#sarablurb {
+  text-align: right;
+}
+#roshniblurb {
+  text-align: left;
+}
