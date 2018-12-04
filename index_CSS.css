@@ -50,7 +50,8 @@ p{
 #heart {
   opacity: 0.2;
   position: absolute;
-  left: 47%; top: 39%;
+  left: 38%;
+  top: 43%;
 }
 
 #heart:hover {
@@ -67,7 +68,8 @@ p{
 #lungs {
     opacity: 0.2;
     position: absolute;
-    left: 35%; top: 39%;
+    left: 28%;
+    top: 39%;
 }
 
 #lungs:hover {
