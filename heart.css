@@ -1,6 +1,7 @@
 body {
   background-color: rgb(174, 214, 241);
   font-family: 'Patrick Hand';
+  text-align: center;
 }
 article {
         max-width: 1000px;
@@ -40,6 +41,10 @@ article {
 
 #toolsimage {
 float: right;
+}
+.lubdub {
+  display: table;
+  margin: 0 auto;
 }
 #sickface {
   float: right;
