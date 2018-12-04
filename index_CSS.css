@@ -49,6 +49,8 @@ p{
 }
 #heart {
   opacity: 0.2;
+  position: absolute;
+  left: 47%; top: 39%;
 }
 
 #heart:hover {
@@ -64,6 +66,8 @@ p{
 
 #lungs {
     opacity: 0.2;
+    position: absolute;
+    left: 35%; top: 39%;
 }
 
 #lungs:hover {
